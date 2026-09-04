@@ -1,13 +1,7 @@
 <h1 align="center">🎙️ SpeechSense AI</h1>
 
-<h2 align="center">🎭 EMOTION</h2>
-
 <p align="center">
-  <b>AI-POWERED SPEECH EMOTION RECOGNITION</b>
-</p>
-
-<p align="center">
-  🎧 Analyze Speech &nbsp;•&nbsp; 🧠 Predict Emotion &nbsp;•&nbsp; 📊 Visualize Results
+  <img src="./EMOTION.png" width="100%" alt="SpeechSense AI - Speech Emotion Recognition">
 </p>
 
 <p align="center">
@@ -28,155 +22,169 @@
 </p>
 
 <p align="center">
-  🚀 <a href="https://emotion-recognition-from-speech-4cigdockiyfpmnbysb4z5y.streamlit.app/"><b>Live Demo</b></a>
+  🚀 <a href="https://emotion-recognition-from-speech-4cigdockiyfpmnbysb4z5y.streamlit.app/">
+    <b>Live Demo</b>
+  </a>
 </p>
 
 ---
 
-## 📌 About The Project
+# 🎙️ SpeechSense AI
 
-**SpeechSense AI** is an intelligent Speech Emotion Recognition application developed using **Python, Machine Learning, Librosa and Streamlit**.
+**SpeechSense AI** is an intelligent **Speech Emotion Recognition** application that analyzes speech audio and predicts the most likely emotional pattern using Machine Learning.
 
-The system analyzes speech audio and predicts the most likely emotional pattern from the speaker's voice.
+The system uses the **RAVDESS Speech Emotion Dataset**, extracts acoustic features from speech using **Librosa**, and classifies emotions using a **Random Forest Classifier**.
 
-The project uses the **RAVDESS Speech Emotion Dataset** and extracts important audio features including **MFCC, Chroma and Mel features**.
+The application is developed with **Streamlit** and provides an interactive dashboard for audio analysis, emotion prediction, confidence scores, visualizations, batch analysis and model evaluation.
 
-A **Random Forest Classifier** is trained on these features to recognize seven different emotions.
-
-The application provides an interactive Streamlit dashboard with:
-
-* 🎧 Audio input
-* 🎭 Emotion prediction
-* 📊 Confidence scores
-* 🎵 Audio analysis
-* 📈 Visualizations
-* 🤖 AI insights
-* 📦 Batch analysis
-* 🔬 Explainable AI
-* 📊 Model performance
-* 🕒 Prediction history
-* 📄 Report generation
-
-> ⚠️ **Important:** The model predicts acoustic patterns in speech. It does not directly determine a person's actual internal emotional state.
+> ⚠️ **Important:** SpeechSense AI predicts acoustic patterns found in speech. It does not directly determine a person's actual internal emotional state.
 
 ---
 
-## 🎭 Supported Emotions
+## 🌐 Live Demo
 
-| Emotion         | Description                       |
-| --------------- | --------------------------------- |
-| 😠 **Angry**    | Anger-related speech patterns     |
-| 🤢 **Disgust**  | Disgust-related speech patterns   |
-| 😨 **Fear**     | Fear-related speech patterns      |
-| 😊 **Happy**    | Happiness-related speech patterns |
-| 😐 **Neutral**  | Neutral speech patterns           |
-| 😢 **Sad**      | Sadness-related speech patterns   |
-| 😲 **Surprise** | Surprise-related speech patterns  |
+<p align="center">
+
+🚀 **[Launch SpeechSense AI](https://emotion-recognition-from-speech-4cigdockiyfpmnbysb4z5y.streamlit.app/)**
+
+</p>
+
+Try the application online and upload or record speech audio to see the predicted emotion.
 
 ---
 
-## ✨ Key Features
+# 🎭 Supported Emotions
 
-### 🎧 Audio Input
+| Emotion | Description |
+|---|---|
+| 😠 **Angry** | Anger-related speech patterns |
+| 🤢 **Disgust** | Disgust-related speech patterns |
+| 😨 **Fear** | Fear-related speech patterns |
+| 😊 **Happy** | Happiness-related speech patterns |
+| 😐 **Neutral** | Neutral speech patterns |
+| 😢 **Sad** | Sadness-related speech patterns |
+| 😲 **Surprise** | Surprise-related speech patterns |
 
-Users can provide speech through:
+---
 
-* 📁 Audio file upload
-* 🎙️ Microphone recording
-* 🔊 Demo audio
+# ✨ Key Features
 
-### 🎵 Supported Audio Formats
+## 🎧 Audio Input
 
-* WAV
-* MP3
-* M4A
+SpeechSense AI supports multiple audio input methods:
 
-### 🧠 Emotion Prediction
+- 📁 Audio file upload
+- 🎙️ Microphone recording
+- 🔊 Demo audio
 
-The trained **Random Forest Classifier** predicts one of seven supported emotions.
+### Supported Formats
 
-The application displays:
+- WAV
+- MP3
+- M4A
 
-* 🎯 Predicted emotion
-* 📊 Confidence score
-* 🥇 Top prediction
-* 🥈 Second-best prediction
-* 📈 Top 3 predictions
-* 🔍 Prediction reliability
-* 📊 Emotion probabilities
+---
 
-### 📊 Audio Analysis
+## 🧠 Emotion Prediction
 
-Speech audio is analyzed using:
-
-* MFCC
-* Chroma
-* Mel Spectrogram
-* RMS Energy
-* Zero Crossing Rate
-* Spectral features
-* Audio duration
-* Sample rate
-* Peak amplitude
-
-### 🎚️ Audio Health Analysis
-
-SpeechSense AI checks:
-
-* ⏱️ Audio duration
-* 🎵 Sample rate
-* 🔊 RMS energy
-* 📈 Peak amplitude
-* ⚠️ Clipping detection
-* 🔇 Silence ratio
-* 📶 Noise level
-* ⭐ Audio quality score
-
-### 📈 Audio Visualizations
-
-The dashboard provides:
-
-* 🌊 Waveform
-* 🎵 Mel Spectrogram
-* 📊 MFCC visualization
-* 📡 Acoustic statistics
-* 📈 Feature analysis
-
-### 🤖 AI Insights
+The trained Random Forest model predicts one of seven supported emotions.
 
 The application provides:
 
-* 🎭 Emotion interpretation
-* 🎚️ Emotion intensity
-* 🔊 Acoustic energy
-* 📈 Prediction strength
-* ⭐ Audio health score
-* 🔇 Noise detection
-* 💡 Smart recommendations
+- 🎯 Predicted emotion
+- 📊 Confidence score
+- 🥇 Top prediction
+- 🥈 Second-best prediction
+- 📈 Top 3 predictions
+- 🔍 Prediction reliability
 
-### 🔬 Explainable AI
+---
 
-SpeechSense AI provides:
+## 📊 Audio Analysis
 
-* Feature importance
-* Emotion probabilities
-* Prediction confidence
-* Top predictions
-* Emotion radar chart
-* Feature explorer
+The system analyzes important acoustic characteristics including:
 
-### 📦 Batch Emotion Analysis
+- 🎵 MFCC
+- 🎼 Chroma
+- 🌈 Mel Spectrogram
+- 🔊 RMS Energy
+- 📈 Zero Crossing Rate
+- 📡 Spectral features
+- ⏱️ Audio duration
+- 🎚️ Sample rate
+- 🔊 Peak amplitude
+
+---
+
+## 🎚️ Audio Health Analysis
+
+SpeechSense AI evaluates audio quality using:
+
+- ⏱️ Audio duration
+- 🎵 Sample rate
+- 🔊 RMS energy
+- 📈 Peak amplitude
+- ⚠️ Clipping detection
+- 🔇 Silence ratio
+- 📶 Noise level
+- ⭐ Audio quality score
+
+---
+
+## 📈 Audio Visualizations
+
+The dashboard provides visual analysis such as:
+
+- 🌊 Waveform
+- 🎵 Mel Spectrogram
+- 📊 MFCC visualization
+- 📡 Acoustic statistics
+- 📈 Feature analysis
+
+---
+
+## 🤖 AI Insights
+
+The application generates useful insights including:
+
+- Emotion interpretation
+- Emotion intensity
+- Acoustic energy
+- Prediction strength
+- Audio health
+- Noise detection
+- Smart recommendations
+
+---
+
+## 🔬 Explainable AI
+
+SpeechSense AI provides interpretable prediction information:
+
+- Feature importance
+- Emotion probabilities
+- Prediction confidence
+- Top predictions
+- Emotion radar chart
+- Feature explorer
+
+---
+
+# 📦 Batch Emotion Analysis
 
 Users can analyze multiple audio files together.
 
-Batch results include:
+Batch analysis provides:
 
-* File name
-* Predicted emotion
-* Confidence
-* Audio statistics
+| Information | Description |
+|---|---|
+| 📁 File Name | Uploaded audio file |
+| 🎭 Emotion | Predicted emotion |
+| 📊 Confidence | Prediction confidence |
+| ⏱️ Duration | Audio duration |
+| 🔊 Audio Stats | Acoustic information |
 
-Results can be exported as CSV.
+Batch results can also be exported as CSV.
 
 ### 📊 Model Performance
 
