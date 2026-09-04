@@ -1,7 +1,39 @@
 <h1 align="center">🎙️ SpeechSense AI</h1>
 
 <p align="center">
-  <b>EMOTION</b>
+  <svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="emotionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#6C63FF"/>
+        <stop offset="50%" stop-color="#9B59B6"/>
+        <stop offset="100%" stop-color="#3498DB"/>
+      </linearGradient>
+    </defs>
+
+```
+<rect width="900" height="180" rx="25" fill="#111827"/>
+<circle cx="80" cy="90" r="45" fill="url(#emotionGradient)" opacity="0.9"/>
+<circle cx="820" cy="90" r="45" fill="url(#emotionGradient)" opacity="0.9"/>
+
+<text x="450" y="88"
+      text-anchor="middle"
+      font-family="Arial, sans-serif"
+      font-size="58"
+      font-weight="bold"
+      fill="url(#emotionGradient)">
+  EMOTION
+</text>
+
+<text x="450" y="125"
+      text-anchor="middle"
+      font-family="Arial, sans-serif"
+      font-size="18"
+      fill="#D1D5DB">
+  SPEECH EMOTION RECOGNITION
+</text>
+```
+
+  </svg>
 </p>
 
 <p align="center">
@@ -634,4 +666,5 @@ If you found this project useful or interesting, please consider giving the repo
 </p>
 
 <p align="center">
-  © 2026 Tehmina Anwar | SpeechSense AI</p>
+  © 2026 Tehmina Anwar | SpeechSense AI
+</p>
