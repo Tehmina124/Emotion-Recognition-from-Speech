@@ -1,6 +1,10 @@
 <h1 align="center">🎙️ SpeechSense AI</h1>
 
 <p align="center">
+  <b>EMOTION</b>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Streamlit-Framework-red?style=for-the-badge&logo=streamlit&logoColor=white">
   <img src="https://img.shields.io/badge/Librosa-Audio%20Processing-purple?style=for-the-badge">
@@ -18,7 +22,7 @@
 </p>
 
 <p align="center">
-  🚀 <b>Live Demo — Coming Soon</b>
+  🚀 <a href="https://emotion-recognition-from-speech-4cigdockiyfpmnbysb4z5y.streamlit.app/"><b>Live Demo</b></a>
 </p>
 
 ---
@@ -63,7 +67,7 @@ Users can provide speech through:
 * 🎙️ Microphone recording
 * 🔊 Demo audio
 
-Supported formats:
+**Supported Formats:**
 
 * WAV
 * MP3
@@ -443,11 +447,13 @@ http://localhost:8501
 
 ## 🌐 Live Demo
 
-🚀 **SpeechSense AI Online Demo**
+<p align="center">
+  🚀 <a href="https://emotion-recognition-from-speech-4cigdockiyfpmnbysb4z5y.streamlit.app/">
+    <b>Launch SpeechSense AI</b>
+  </a>
+</p>
 
-**Coming Soon**
-
-The application is currently available for local use. A public Streamlit deployment will be added in the future.
+SpeechSense AI is deployed using **Streamlit** and can be accessed online.
 
 ---
 
@@ -507,7 +513,7 @@ Future versions of SpeechSense AI can include:
 * 🌍 Multi-language emotion recognition
 * 👥 Speaker-independent evaluation
 * 📱 Mobile application
-* ☁️ Public cloud deployment
+* ☁️ Advanced cloud deployment
 * 🎧 Better noise reduction
 * 📊 Advanced analytics
 * 🧠 Transformer-based speech models
@@ -580,11 +586,13 @@ It should **not** be used for:
 
 ### Tehmina Anwar
 
-**BSAI Student | AI/ML Engineer | Python Developer**
+<p align="center">
+  <b>🤖 AI Developer • AI/ML Engineer • Python Developer • Generative AI</b>
+</p>
 
-I am a Bachelor of Science in Artificial Intelligence student interested in building practical AI and Machine Learning applications.
+I am a Bachelor of Science in Artificial Intelligence student passionate about building practical and intelligent AI applications.
 
-My areas of interest include:
+My interests include:
 
 * 🐍 Python
 * 🧠 Machine Learning
@@ -594,6 +602,8 @@ My areas of interest include:
 * 📝 Natural Language Processing
 * 👁️ Computer Vision
 * 💻 AI Application Development
+
+I enjoy turning AI and Machine Learning concepts into practical projects and user-friendly applications.
 
 ---
 
@@ -624,5 +634,4 @@ If you found this project useful or interesting, please consider giving the repo
 </p>
 
 <p align="center">
-  © 2026 Tehmina Anwar | SpeechSense AI
-</p>
+  © 2026 Tehmina Anwar | SpeechSense AI</p>
