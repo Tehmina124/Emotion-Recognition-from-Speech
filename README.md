@@ -1,39 +1,13 @@
 <h1 align="center">🎙️ SpeechSense AI</h1>
 
+<h2 align="center">🎭 EMOTION</h2>
+
 <p align="center">
-  <svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="emotionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#6C63FF"/>
-        <stop offset="50%" stop-color="#9B59B6"/>
-        <stop offset="100%" stop-color="#3498DB"/>
-      </linearGradient>
-    </defs>
+  <b>AI-POWERED SPEECH EMOTION RECOGNITION</b>
+</p>
 
-```
-<rect width="900" height="180" rx="25" fill="#111827"/>
-<circle cx="80" cy="90" r="45" fill="url(#emotionGradient)" opacity="0.9"/>
-<circle cx="820" cy="90" r="45" fill="url(#emotionGradient)" opacity="0.9"/>
-
-<text x="450" y="88"
-      text-anchor="middle"
-      font-family="Arial, sans-serif"
-      font-size="58"
-      font-weight="bold"
-      fill="url(#emotionGradient)">
-  EMOTION
-</text>
-
-<text x="450" y="125"
-      text-anchor="middle"
-      font-family="Arial, sans-serif"
-      font-size="18"
-      fill="#D1D5DB">
-  SPEECH EMOTION RECOGNITION
-</text>
-```
-
-  </svg>
+<p align="center">
+  🎧 Analyze Speech &nbsp;•&nbsp; 🧠 Predict Emotion &nbsp;•&nbsp; 📊 Visualize Results
 </p>
 
 <p align="center">
@@ -65,11 +39,23 @@
 
 The system analyzes speech audio and predicts the most likely emotional pattern from the speaker's voice.
 
-The project uses the **RAVDESS Speech Emotion Dataset** and extracts important audio features including **MFCC, Chroma and Mel Spectrogram features**.
+The project uses the **RAVDESS Speech Emotion Dataset** and extracts important audio features including **MFCC, Chroma and Mel features**.
 
 A **Random Forest Classifier** is trained on these features to recognize seven different emotions.
 
-The application provides an interactive Streamlit dashboard with audio analysis, emotion prediction, confidence scores, visualizations, batch analysis, model performance and prediction history.
+The application provides an interactive Streamlit dashboard with:
+
+* 🎧 Audio input
+* 🎭 Emotion prediction
+* 📊 Confidence scores
+* 🎵 Audio analysis
+* 📈 Visualizations
+* 🤖 AI insights
+* 📦 Batch analysis
+* 🔬 Explainable AI
+* 📊 Model performance
+* 🕒 Prediction history
+* 📄 Report generation
 
 > ⚠️ **Important:** The model predicts acoustic patterns in speech. It does not directly determine a person's actual internal emotional state.
 
@@ -77,15 +63,15 @@ The application provides an interactive Streamlit dashboard with audio analysis,
 
 ## 🎭 Supported Emotions
 
-| Emotion     | Description                       |
-| ----------- | --------------------------------- |
-| 😠 Angry    | Anger-related speech patterns     |
-| 🤢 Disgust  | Disgust-related speech patterns   |
-| 😨 Fear     | Fear-related speech patterns      |
-| 😊 Happy    | Happiness-related speech patterns |
-| 😐 Neutral  | Neutral speech patterns           |
-| 😢 Sad      | Sadness-related speech patterns   |
-| 😲 Surprise | Surprise-related speech patterns  |
+| Emotion         | Description                       |
+| --------------- | --------------------------------- |
+| 😠 **Angry**    | Anger-related speech patterns     |
+| 🤢 **Disgust**  | Disgust-related speech patterns   |
+| 😨 **Fear**     | Fear-related speech patterns      |
+| 😊 **Happy**    | Happiness-related speech patterns |
+| 😐 **Neutral**  | Neutral speech patterns           |
+| 😢 **Sad**      | Sadness-related speech patterns   |
+| 😲 **Surprise** | Surprise-related speech patterns  |
 
 ---
 
@@ -99,7 +85,7 @@ Users can provide speech through:
 * 🎙️ Microphone recording
 * 🔊 Demo audio
 
-**Supported Formats:**
+### 🎵 Supported Audio Formats
 
 * WAV
 * MP3
@@ -117,6 +103,7 @@ The application displays:
 * 🥈 Second-best prediction
 * 📈 Top 3 predictions
 * 🔍 Prediction reliability
+* 📊 Emotion probabilities
 
 ### 📊 Audio Analysis
 
@@ -159,13 +146,13 @@ The dashboard provides:
 
 The application provides:
 
-* Emotion interpretation
-* Emotion intensity
-* Acoustic energy
-* Prediction strength
-* Audio health
-* Noise detection
-* Smart recommendations
+* 🎭 Emotion interpretation
+* 🎚️ Emotion intensity
+* 🔊 Acoustic energy
+* 📈 Prediction strength
+* ⭐ Audio health score
+* 🔇 Noise detection
+* 💡 Smart recommendations
 
 ### 🔬 Explainable AI
 
@@ -249,7 +236,7 @@ SpeechSense AI uses a **Random Forest Classifier** for emotion classification.
 
 Random Forest combines multiple decision trees to make a final prediction.
 
-It works with the extracted acoustic features and also provides useful feature-importance information for explainability.
+The classifier works with extracted acoustic features and also provides useful feature-importance information for explainability.
 
 ---
 
@@ -334,19 +321,19 @@ The audio processing pipeline extracts **92 features** from each audio sample.
 
 ## 🛠️ Technologies Used
 
-| Technology       | Purpose                               |
-| ---------------- | ------------------------------------- |
-| 🐍 Python        | Application Development               |
-| 🎈 Streamlit     | Web Application Interface             |
-| 🎵 Librosa       | Audio Processing & Feature Extraction |
-| 🧠 Scikit-learn  | Machine Learning                      |
-| 🌲 Random Forest | Emotion Classification                |
-| 🔢 NumPy         | Numerical Processing                  |
-| 📊 Pandas        | Data Processing                       |
-| 📈 Matplotlib    | Data Visualization                    |
-| 💾 Joblib        | Model Serialization                   |
-| 🎧 RAVDESS       | Speech Emotion Dataset                |
-| 🐙 GitHub        | Version Control                       |
+| Technology           | Purpose                               |
+| -------------------- | ------------------------------------- |
+| 🐍 **Python**        | Application Development               |
+| 🎈 **Streamlit**     | Web Application Interface             |
+| 🎵 **Librosa**       | Audio Processing & Feature Extraction |
+| 🧠 **Scikit-learn**  | Machine Learning                      |
+| 🌲 **Random Forest** | Emotion Classification                |
+| 🔢 **NumPy**         | Numerical Processing                  |
+| 📊 **Pandas**        | Data Processing                       |
+| 📈 **Matplotlib**    | Data Visualization                    |
+| 💾 **Joblib**        | Model Serialization                   |
+| 🎧 **RAVDESS**       | Speech Emotion Dataset                |
+| 🐙 **GitHub**        | Version Control                       |
 
 ---
 
@@ -419,7 +406,7 @@ Organizes the RAVDESS dataset into emotion-based folders for easier training and
 
 ### `models/`
 
-Contains:
+Contains the trained model files:
 
 ```text
 emotion_model.pkl
@@ -622,7 +609,7 @@ It should **not** be used for:
   <b>🤖 AI Developer • AI/ML Engineer • Python Developer • Generative AI</b>
 </p>
 
-I am a Bachelor of Science in Artificial Intelligence student passionate about building practical and intelligent AI applications.
+I am a **Bachelor of Science in Artificial Intelligence student** passionate about building practical and intelligent AI applications.
 
 My interests include:
 
